@@ -1,16 +1,28 @@
-<!--  Spec Tab's Content  -->
-<h4>Specs</h4>
-<ul class="list-unstyled">
-  <li>
-    <strong>Shine</strong>
-    : {{product.shine}}</li>
-  <li>
-    <strong>Faces</strong>
-    : {{product.faces}}</li>
-  <li>
-    <strong>Rarity</strong>
-    : {{product.rarity}}</li>
-  <li>
-    <strong>Color</strong>
-    : {{product.color}}</li>
-</ul>
+<!DOCTYPE html>
+<html ng-app="gemStore">
+  <head>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="products.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+
+  <body ng-controller="StoreController as store">
+    <!--  Spec Tab's Content  -->
+  <h4>Specs</h4>
+  <ul class="list-unstyled">
+    <li>
+      <strong>Shine</strong>
+      : {{product.shine}}</li>
+    <li>
+      <strong>Faces</strong>
+      : {{product.faces}}</li>
+    <li>
+      <strong>Rarity</strong>
+      : {{product.rarity}}</li>
+    <li>
+      <strong>Color</strong>
+      : {{product.color}}</li>
+  </ul>
+  </body>
+</html>
